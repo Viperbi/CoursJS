@@ -13,8 +13,9 @@ tab.map((p) => {
 	p.style.padding = "5px";
 	p.style.backgroundColor = "black";
 	p.style.borderRadius = "100px";
+	//p.style.fontSize = "200px";
 	p.style.borderColor = "black";
-	p.textContent = "Ouai salut ouai";
+	p.textContent = "Ouai click ouai";
 	p.addEventListener("click", () => {
 		alert("WARNING");
 	});
