@@ -10,3 +10,13 @@ document.addEventListener("click", (e) => {
 	img.src = "https://i.imgflip.com/2pzj16.jpg?a480936";
 	document.body.append(img);
 });
+
+VANTA.CLOUDS({
+	el: "#app",
+	mouseControls: true,
+	touchControls: true,
+	gyroControls: false,
+	minHeight: 200,
+	minWidth: 200,
+	speed: 1.9,
+});
