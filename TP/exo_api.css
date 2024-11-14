@@ -1,0 +1,24 @@
+div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+img {
+	background-color: white;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.card {
+	background-color: lightgray;
+	max-width: 300px;
+	/* box-shadow: 10px 10px 10px gray; */
+	box-shadow: -10px 10px 10px gray;
+}
+
+body {
+	gap: 1rem;
+}
