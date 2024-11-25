@@ -1,4 +1,10 @@
 class IMC {
+	/**
+	 *
+	 * @param {string} nom
+	 * @param {int} poids
+	 * @param {int} taille
+	 */
 	constructor(nom, poids, taille) {
 		this.nom = nom;
 		this.poids = poids;
@@ -7,8 +13,8 @@ class IMC {
 	//Fonction permettant de calculer l'IMC d'une personne à partir de son poids et de sa taille.
 	/**
 	 *
-	 * @param {*} taille
-	 * @param {*} poids
+	 * @param {int} taille
+	 * @param {int} poids
 	 * @returns
 	 */
 	calculIMC(taille, poids) {
@@ -31,6 +37,8 @@ const list = [
 	new IMC("Gontrand", 90, 1.75),
 	new IMC("Colonel Clock", 200, 1.75),
 	new IMC("J0siane de la Vega", 99, 1.55),
+	new IMC("moi", 75, 1.95),
+	new IMC("Romaric", 82, 1.83),
 ];
 //Boucle permettant de parcourir le tableau list et d'afficher les infos de chaque personne.
 for (let i = 0; i < list.length; i++) {
