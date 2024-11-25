@@ -1,9 +1,12 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
 div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
 }
 
 img {
@@ -13,7 +16,11 @@ img {
 }
 
 .card {
-	background-color: lightgray;
+	/* background-image: url("https://p1.hiclipart.com/preview/856/68/867/xy-blanks-basic-fire-pokemon-card-template-png-clipart.jpg"); */
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	/* background-color: lightgray; */
 	max-width: 300px;
 	/* box-shadow: 10px 10px 10px gray; */
 	box-shadow: -10px 10px 10px gray;
