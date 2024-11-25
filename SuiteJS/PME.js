@@ -12,6 +12,10 @@ class Employee {
 		this.age = age;
 		this.salaire = salaire;
 	}
+	/**
+	 *
+	 * @returns Retourne le salaire annuel de l'employee
+	 */
 	getSalaireAnnuel() {
 		return this.salaire * 12;
 	}
@@ -33,6 +37,10 @@ class Pme {
 		this.FF = FF;
 		this.FA = FA;
 	}
+	/**
+	 *
+	 * @returns Retourne le cout total des équipes de l'entreprise avec les taxes prisent en compte.
+	 */
 	getCoutEquipe() {
 		let cout = 0;
 		for (let i = 0; i < this.salarie.length; i++) {
@@ -40,6 +48,10 @@ class Pme {
 		}
 		return cout;
 	}
+	/**
+	 *
+	 * @returns Retourne le bilan financier de l'entreprise.
+	 */
 	getBilan() {
 		return this.R - (this.getCoutEquipe() + this.FF + this.FA);
 	}
