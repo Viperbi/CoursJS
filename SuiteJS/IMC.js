@@ -5,6 +5,12 @@ class IMC {
 		this.taille = taille;
 	}
 	//Fonction permettant de calculer l'IMC d'une personne à partir de son poids et de sa taille.
+	/**
+	 *
+	 * @param {*} taille
+	 * @param {*} poids
+	 * @returns
+	 */
 	calculIMC(taille, poids) {
 		return (poids / (taille * taille)).toFixed(2);
 	}
