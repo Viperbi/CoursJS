@@ -71,4 +71,5 @@ biblio.ajouterLivre(livre2);
 biblio.emprunterLivre("1984");
 biblio.emprunterLivre("1984");
 biblio.retournerLivre("1984");
+biblio.retournerLivre("Batisla Bios");
 biblio.emprunterLivre("1999999");
